@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <title>Sai Sivani Kodali</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1000">
+                <span>Sivani Kodali</span>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"><a href="#about">About</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"><a href="#experience">Experience</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300"><a href="#skills">Skills</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400"><a href="#projects">Projects</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500"><a href="#certifications">Certifications</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500"><a href="#contact">Contact</a></div>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+        <div class="dropdown">
+            <div class="links">
+
+                <a href="#about" onclick="cancel()">About</a>
+                <a href="#experience" onclick="cancel()">Experience</a>
+                <a href="#skills" onclick="cancel()">Skills</a>
+                <a href="#projects" onclick="cancel()">Projects</a>
+                <a href="#certifications" onclick="cancel()">Certifications</a>
+                <a href="#contact" onclick="cancel()">Contact</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+    <section id="about">
+      <div class="main-container">
+        <div class="image" data-aos="zoom-in-right" data-aos-duration="2500">
+          <img src="my photo.jpg" alt="Sai Sivani Kodali">
+        </div>
+
+        <div class="content">
+          <h1 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="800">
+            Hi I'm <span>Sivani</span>
+          </h1>
+    
+          <div class="typewriter" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="900">
+            I'm a <span></span>
+          </div>
+    
+          <p data-aos="flip-up" data-aos-duration="1000" data-aos-delay="1000">
+            DevOps Engineer with 3 years of experience in building and operating scalable cloud infrastructure.
+            AWS Certified Solutions Architect experienced in Kubernetes, Terraform, CI/CD automation, and monitoring,
+            with a strong focus on reliability, performance, and production stability. Self-driven, quick learner, and
+            passionate about solving complex and challenging real-world problems.
+          </p>
+    
+          <div class="hero-actions">
+            <div class="social-links">
+              <a href="https://github.com/kodalisv" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/sai-sivani-kodali-1970141a3/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+              <a href="mailto:sivanikodali26@gmail.com" aria-label="Email">
+                <i class="fa-solid fa-envelope"></i>
+              </a>
+            </div>
+    
+            <a class="resume-btn" href="Sivani_Kodali_Resume.pdf" target="_blank" rel="noopener noreferrer">
+              View Resume
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+          <section id="experience" class="experience-section">
+          <h2 class="section-title">Experience</h2>
+          
+          <div class="experience-item" data-aos="fade-up" data-aos-duration="900">
+            <img src="assets/Nokia_logo.svg" alt="Nokia Logo" class="company-logo">
+          
+            <div class="experience-content">
+              <h3>DevOps Engineer</h3>
+              <h4>Nokia Solutions and Networks</h4>
+              <p class="experience-date">June 2022 – June 2024</p>
+          
+              <ul>
+                <li>Designed and operated scalable cloud-native infrastructure using Kubernetes and Docker for high-volume production workloads.</li>
+                <li>Automated infrastructure provisioning and deployments using Terraform, Helm, and Argo CD.</li>
+                <li>Built and optimized CI/CD pipelines (Jenkins, GitHub Actions).</li>
+                <li>Implemented monitoring using AWS CloudWatch.</li>
+                <li>Resolved production issues across Linux and network layers.</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="experience-item" data-aos="fade-up" data-aos-duration="900" data-aos-delay="120">
+            <img src="assets/cts_logo.png" alt="Cognizant Logo" class="company-logo">
+          
+            <div class="experience-content">
+              <h3>Programmer Analyst Trainee</h3>
+              <h4>Cognizant</h4>
+              <p class="experience-date">April 2021 – May 2022</p>
+          
+              <ul>
+                <li>Developed backend modules using Python and SQL.</li>
+                <li>Built responsive front-end components using JavaScript, HTML, CSS, and React.</li>
+                <li>Worked in agile teams delivering sprint features.</li>
+                <li>Performed troubleshooting during deployment phases.</li>
+              </ul>
+            </div>
+          </div>
+          </section>
+
+            <section id="skills" class="skills-section">
+              <h2 class="section-title">Technical Skills</h2>
+            
+              <div class="skills-grid">
+            
+                <div class="skill-card">
+                  <h3>Cloud Platforms</h3>
+                  <div class="skill-icons">
+                    <i class="devicon-amazonwebservices-plain-wordmark colored" title="AWS"></i>
+                    <i class="devicon-azure-plain colored" title="Azure"></i>
+                  </div>
+                </div>
+            
+                <div class="skill-card">
+                  <h3>CI/CD</h3>
+                  <div class="skill-icons">
+                    <i class="devicon-jenkins-line colored" title="Jenkins"></i>
+                    <i class="devicon-githubactions-plain colored" title="GitHub Actions"></i>
+                  </div>
+                  <p class="skill-text">Argo CD</p>
+                </div>
+            
+                <div class="skill-card">
+                  <h3>Containers</h3>
+                  <div class="skill-icons">
+                    <i class="devicon-docker-plain colored" title="Docker"></i>
+                    <i class="devicon-kubernetes-plain colored" title="Kubernetes"></i>
+                    <i class="devicon-helm-original colored" title="Helm"></i>
+                  </div>
+                  <p class="skill-text">EKS • AKS</p>
+                </div>
+            
+                <div class="skill-card">
+                  <h3>Infrastructure as Code</h3>
+                  <div class="skill-icons">
+                    <i class="devicon-terraform-plain colored" title="Terraform"></i>
+                    <i class="devicon-ansible-plain colored" title="Ansible"></i>
+                  </div>
+                </div>
+            
+                <div class="skill-card">
+                  <h3>Observability</h3>
+                  <div class="skill-icons">
+                    <i class="devicon-prometheus-original colored" title="Prometheus"></i>
+                    <i class="devicon-grafana-original colored" title="Grafana"></i>
+                  </div>
+                  <p class="skill-text">CloudWatch • Zabbix</p>
+                </div>
+            
+                <div class="skill-card">
+                  <h3>Languages & Databases</h3>
+                  <div class="skill-icons">
+                    <i class="devicon-python-plain colored" title="Python"></i>
+                    <i class="devicon-java-plain colored" title="Java"></i>
+                    <i class="devicon-javascript-plain colored" title="JavaScript"></i>
+                    <i class="devicon-html5-plain colored" title="HTML"></i>
+                    <i class="devicon-css3-plain colored" title="CSS"></i>
+                    <i class="devicon-mysql-plain colored" title="MySQL"></i>
+                    <i class="devicon-bash-plain colored" title="Bash"></i>
+                  </div>
+                  <p class="skill-text">Bash • Shell Scripting</p>
+                </div>
+            
+              </div>
+            </section>
+
+            <section id="certifications" class="certifications-section">
+              <h2 class="section-title">Certifications</h2>
+            
+              <div class="certifications-grid">
+                <div class="cert-card" data-aos="zoom-in" data-aos-duration="800">
+                  <h3>AWS Certified Cloud Practitioner</h3>
+                  <p>AWS</p>
+                </div>
+            
+                <div class="cert-card" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="100">
+                  <h3>AWS Certified Solutions Architect</h3>
+                  <p>AWS</p>
+                </div>
+            
+                <div class="cert-card" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="200">
+                  <h3>Microsoft Azure Fundamentals</h3>
+                  <p>Microsoft</p>
+                </div>
+            
+                <div class="cert-card" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="300">
+                  <h3>Source Code Management using Git and GitHub</h3>
+                  <p>AICTE</p>
+                </div>
+              </div>
+            </section>
+   
+
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init({offset:0});
+        </script>
+        <script>
+            function hamburg(){
+                const navbar = document.querySelector(".dropdown")
+                navbar.style.transform = "translateY(0px)"
+            }
+            function cancel(){
+                const navbar = document.querySelector(".dropdown")
+                navbar.style.transform = "translateY(-500px)"
+            }
+        </script>
+
+        
+</body>
+</html>
