@@ -390,13 +390,24 @@ nav{
   }
   
   .company-logo {
-        width: 75px;              
+        width: 75px;
         height: 75px;
         object-fit: contain;
         background: white;
         padding: 4px;             
         border-radius: 10px;
       }
+
+  .company-initials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 75px;
+    color: #006b54;
+    font-size: 1.15rem;
+    font-weight: 800;
+    letter-spacing: 0.04em;
+  }
   
   
   .experience-content h3 {
@@ -436,6 +447,11 @@ nav{
     .company-logo {
       width: 50px;
       height: 50px;
+    }
+
+    .company-initials {
+      flex-basis: 50px;
+      font-size: 0.9rem;
     }
   }
 
