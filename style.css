@@ -215,7 +215,7 @@ nav{
 }
 
 .typewriter span::before{
-  content: "DevOps Engineer";
+  content: "Software Developer";
 }
 
 
@@ -398,15 +398,10 @@ nav{
         border-radius: 10px;
       }
 
-  .company-initials {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex: 0 0 75px;
-    color: #006b54;
-    font-size: 1.15rem;
-    font-weight: 800;
-    letter-spacing: 0.04em;
+  .company-logo-wide {
+    width: 150px;
+    flex: 0 0 150px;
+    padding: 10px;
   }
   
   
@@ -449,9 +444,10 @@ nav{
       height: 50px;
     }
 
-    .company-initials {
-      flex-basis: 50px;
-      font-size: 0.9rem;
+    .company-logo-wide {
+      width: 135px;
+      height: 58px;
+      flex-basis: 135px;
     }
   }
 
